@@ -1,0 +1,142 @@
+.requestBG {
+    background-image: url('/src/assets/images/ApplicationBG.jpeg');
+    background-position: center top;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 60px;
+}
+
+.requestHeader {
+    margin-bottom: 0;
+}
+
+.requestSubtext {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.form {
+    background: #034AA680 50%;
+    padding: 50px 50px 0 50px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form1 {
+    width: 40%;
+}
+
+.form2 {
+    width: 40%;
+}
+
+.form1 input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    background: none;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none; 
+}
+
+.form input::placeholder,
+.form select::placeholder {
+    color: #fff; 
+}
+
+.form2 input,
+.form2 select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    border: 1px solid #fff; 
+    border-radius: 5px; 
+    outline: none; 
+}
+
+.form2 input::placeholder,
+.form2 select::placeholder {
+    color: #fff; 
+}
+
+.form2 select option {
+    background-color: #034AA680;
+    color: #fff; 
+}
+
+.form2 input[type="date"] {
+    background: url('/src/assets/images/Calendar.png') no-repeat right 10px center;
+    background-size: 20px;
+    color: #fff; 
+}
+
+.form2 input[type="number"] {
+    background: url('/src/assets/images/people.svg') no-repeat right 10px center;
+    background-size: 20px;
+    color: #fff;
+}
+
+.form2 select {
+    background: url('/src/assets/images/select.svg') no-repeat right 10px center;
+    background-size: 15px;
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    padding-right: 30px;
+    color: #fff;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0; 
+}
+
+.form2 input[type="date"]::before {
+    content: attr(placeholder); 
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    left: 10px;
+    pointer-events: none; 
+}
+
+.requestBtn {
+    font-family: inherit;
+    color: #fff;
+    background-color: #F15C05;
+    font-weight: 900;
+    font-size: 36px;
+    width: 330px;
+    height: 80px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.requestBtn:hover {
+    background-color: #863303;
+}

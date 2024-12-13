@@ -1,0 +1,21 @@
+.travelTimeBG {
+    background-image: url('/src/assets/images/MainBG.jpeg');
+    height: 100vh;
+    margin-top: -164px;
+    background-size: cover;
+    background-position: top;
+}
+
+.travelTimeHeader {
+    color: #F15C05;
+    margin: 20px 0;
+    font-size: 64px;
+    font-weight: 900;
+    padding-top: 272px
+}
+  
+.travelTimeText {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+}

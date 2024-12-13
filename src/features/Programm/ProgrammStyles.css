@@ -1,0 +1,32 @@
+.programmBG {
+    background-image: url('/src/assets/images/ProgrammVector.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.programmCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+}
+
+.programmCard {
+    width: 280px;
+    height: 158px;
+    border: 1px solid #023E73;
+    border-radius: 8px;
+}
+
+.programmCardHeader {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+    padding: 0 20px;
+}
+
+.programmCardText {
+    padding: 0 20px;
+    margin-top: 0;
+}

@@ -1,0 +1,29 @@
+.whyUsBG {
+    background-image: url('/src/assets/images/WhyUsVector.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 50px;
+}
+
+.whyUsCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 140px;
+}
+
+.whyUsCard {
+    min-width: 280px;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #023E73;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyUsText {
+    max-width: 220px;
+    text-align: center;
+}

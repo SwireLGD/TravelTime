@@ -1,0 +1,74 @@
+.reviewsBG {
+    background-image: url('/src//assets/images/ProgrammVector.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.reviewCards {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.reviewCard {
+    max-width: 500px;
+    height: 550px;
+    border: 1px solid #023E73;
+    border-radius: 8px;
+}
+
+.reviewCard1 {
+    background-image: url('/src/assets/images/MariyaBG.jpeg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.reviewCard2 {
+    background-image: url('/src/assets/images/EvgeniyBG.jpeg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.reviewCardHead {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mariya {
+    background-image: url('/src/assets/images/Mariya.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+
+.evgeniy {
+    background-image: url('/src/assets/images/Evgeniy.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.avatar {
+    margin: 32px 10px 32px 60px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.reviewCardHead {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.reviewText {
+    color: #fff;
+    font-weight: 400;
+    padding: 0 60px;
+}

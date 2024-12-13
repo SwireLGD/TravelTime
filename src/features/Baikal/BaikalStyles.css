@@ -1,0 +1,53 @@
+.baikalCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.baikalCard {
+    width: 500px;
+    height: 624px;
+    border: 1px solid #033373;
+    border-radius: 8px;
+}
+
+.baikalCard1 {
+    background-image: url('/src//assets/images/Baikal.jpeg');
+    background-position: center center;
+    min-width: 500px;
+    min-height: 624px;
+}
+
+.baikalCardContent {
+    padding: 32px 48px;
+}
+
+.baikalPrice {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.baikalPriceSpan {
+    color: #F15C05;
+}
+
+.baikalListSpan {
+    font-weight: 700;
+    color: #F15C05;
+    margin-left: -40px;
+    line-height: 25px;
+}
+
+.baikalListItem {
+    font-weight: 700;
+    line-height: 25px;
+    color: #023E73;
+}
+
+.baikalMoreList {
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.baikalMoreListSpan {
+    margin-left: -40px;
+}

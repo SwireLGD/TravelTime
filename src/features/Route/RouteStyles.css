@@ -1,0 +1,39 @@
+.routeBG {
+    background-image: url('/src/assets/images/RouteBG.jpg');
+    height: 760px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: -40px;
+}
+
+.routeHeader {
+    padding-top: 40px;
+}
+
+.routeCards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.routeCard {
+    width: 500px;
+    background: #FFFFFF4D 30%;
+    border: 1px solid #023E73;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.routeCardHeader {
+    color: #F15C05;
+    font-size: 24px;
+    padding: 0 30px;
+    max-width: 420px;
+    margin-bottom: 0;
+}
+
+.routeCardText {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0 30px;
+}

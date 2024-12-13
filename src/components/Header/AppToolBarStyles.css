@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+  
+.logo img {
+    height: 60px;
+}
+  
+.nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #023E73;
+    font-weight: bold;
+    font-size: 20px;
+}
+  
+.nav a:hover {
+    color: #F15C05;
+}
+
+.burger {
+    flex-direction: column;
+    justify-content: space-between;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.burger-line {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 200;
+    border-radius: 2px;
+    color: #023E73;
+}
