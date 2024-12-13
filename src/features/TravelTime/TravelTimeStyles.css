@@ -11,11 +11,36 @@
     margin: 20px 0;
     font-size: 64px;
     font-weight: 900;
-    padding-top: 272px
+    padding-top: 272px;
 }
-  
+
 .travelTimeText {
     color: #fff;
     font-size: 36px;
     font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .travelTimeHeader {
+        font-size: 48px;
+    }
+
+    .travelTimeText {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .travelTimeHeader {
+        font-size: 36px;
+        padding-top: 240px;
+    }
+
+    .travelTimeText {
+        font-size: 20px;
+    }
+
+    .travelTimeBG {
+        padding-top: -164px;
+    }
 }

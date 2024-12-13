@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import './ToursStyles.css';
 
 const data = [
-  { id: 1, title: "Водные походы", image: "/src/assets/images/SeaTours.jpeg", link: "/water-tours" },
-  { id: 2, title: "Пешие походы", image: "/src/assets/images/FeetTours.jpeg", link: "/hiking-tours" },
-  { id: 3, title: "Горные походы", image: "/src/assets/images/MountainTours.jpeg", link: "/mountain-tours" },
+  { id: 1, title: "Водные походы", image: "/src/assets/images/SeaTours.jpeg", link: "#" },
+  { id: 2, title: "Пешие походы", image: "/src/assets/images/FeetTours.jpeg", link: "#" },
+  { id: 3, title: "Горные походы", image: "/src/assets/images/MountainTours.jpeg", link: "#" },
 ];
 
 const Tours = () => {

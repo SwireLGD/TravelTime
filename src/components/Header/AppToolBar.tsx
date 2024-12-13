@@ -16,10 +16,10 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           <img src="/src/assets/images/Logo.svg" alt="Пора в поход" />
         </Link>
         <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
-          <Link to="/tours" onClick={() => setIsMenuOpen(false)}>Туры</Link>
-          <Link to="/about" onClick={() => setIsMenuOpen(false)}>О нас</Link>
-          <Link to="/reviews" onClick={() => setIsMenuOpen(false)}>Отзывы</Link>
-          <Link to="/contacts" onClick={() => setIsMenuOpen(false)}>Контакты</Link>
+          <Link to="#" onClick={() => setIsMenuOpen(false)}>Туры</Link>
+          <Link to="#" onClick={() => setIsMenuOpen(false)}>О нас</Link>
+          <Link to="#" onClick={() => setIsMenuOpen(false)}>Отзывы</Link>
+          <Link to="#" onClick={() => setIsMenuOpen(false)}>Контакты</Link>
         </nav>
         <button className="burger" onClick={toggleMenu}>
           <span className="burger-line">☰</span>

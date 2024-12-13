@@ -22,7 +22,7 @@ const Reviews = () => {
                         <div className="reviewCard reviewCard2">
                             <div className="reviewCardHead">
                                 <div className="avatar evgeniy"></div>
-                                <h3>Евнгений<br />Ким</h3>
+                                <h3>Евгений<br />Ким</h3>
                             </div>
                             <p className="reviewText">
                             Путешествие с "Пора в поход" на Байкал было незабываемым. Они предлагают уникальные  приключения, гарантируют комфорт и безопасность,

@@ -7,7 +7,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
 .tourTitle {
@@ -19,10 +18,10 @@
     margin-top: 60px;
     display: flex;
     justify-content: center;
+    width: 80%;
 }
   
 .tourCard {
-    flex: 0 0 30%;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -57,6 +56,7 @@
     cursor: pointer;
     padding: 0;
     color: #023E73;
+    margin: 0 30px;
 }
   
 .indicators {
@@ -76,4 +76,86 @@
   
 .dot.active {
     background: #F15C05;
-} 
+}
+
+@media (max-width: 1200px) {
+    .tourTitle {
+      font-size: 34px; 
+      margin-bottom: 40px;
+    }
+
+    .tourCard {
+      width: 250px;  
+      height: 250px; 
+    }
+  
+    .tourCardTitle {
+      font-size: 24px;
+      padding: 8px;
+    }
+  
+    .indicators {
+      margin-top: 20px;
+    }
+  
+    .dot {
+      width: 12px;
+      height: 12px; 
+    }
+}
+
+@media (max-width: 880px) {
+  
+    .tourCards {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      height: 400px;
+    }
+  
+    .tourCard {
+      width: 300px; 
+    }
+  
+    .tourCardTitle {
+      font-size: 24px;
+      padding: 8px;
+    }
+
+    .arrow {
+        margin: 30px;
+    }
+}
+
+@media (max-width: 880px) {
+    .tourCarousel {
+        height: 100%;
+    }
+}
+  
+@media (max-width: 480px) {
+    .tourTitle {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+  
+    .tourCard {
+        width: 90%;
+        height: 200px 
+    }
+  
+    .tourCardTitle {
+        font-size: 20px; 
+    }
+  
+    .arrow {
+        font-size: 1.2rem;
+    }
+  
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+}

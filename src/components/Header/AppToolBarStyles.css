@@ -4,11 +4,11 @@
     justify-content: space-between;
     padding: 40px 0px;
 }
-  
+
 .logo img {
     height: 60px;
 }
-  
+
 .nav a {
     margin: 0 20px;
     text-decoration: none;
@@ -16,7 +16,7 @@
     font-weight: bold;
     font-size: 20px;
 }
-  
+
 .nav a:hover {
     color: #F15C05;
 }
@@ -36,4 +36,31 @@
     font-weight: 200;
     border-radius: 2px;
     color: #023E73;
+}
+
+@media (max-width: 768px) {
+    .burger {
+      display: flex;
+    }
+
+    .nav {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: -100%; 
+      right: 0;
+      left: 0;
+      text-align: center;
+      padding: 20px 0;
+      transition: top 0.3s ease-in-out; 
+    }
+
+    .nav.open {
+      top: 30px;
+    }
+
+    .nav a {
+      margin: 10px 0;
+      font-size: 22px;
+    }
 }

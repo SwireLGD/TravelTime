@@ -27,3 +27,19 @@ h2 {
     font-weight: 600;
     color: #F15C05;
 }
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 95%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 48px;
+    }
+}

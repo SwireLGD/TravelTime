@@ -30,3 +30,32 @@
     padding: 0 20px;
     margin-top: 0;
 }
+
+@media (max-width: 1200px) {
+    .programmCards {
+        gap: 10px 10px;
+        justify-content: center;
+    }
+
+    .programmCard {
+        height: 120px;
+    }
+}
+
+@media (max-width: 990px) {
+    .programmCardHeader {
+        font-size: 20px;
+        margin: 10px 0 10px 0;
+    }
+
+    .programmCardText {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .programmCard {
+        width: 90%;
+        height: auto;
+    }
+}
