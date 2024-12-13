@@ -3,7 +3,7 @@ import './AppToolBarStyles.css';
 import { useState } from 'react';
 
 const AppToolBar = () => {
-const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -11,18 +11,26 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className='container'>
-      <header className="header">
-        <Link to="/" className="logo">
-          <img src="/src/assets/images/Logo.svg" alt="Пора в поход" />
+      <header className='header'>
+        <Link to='/' className='logo'>
+          <img src='/src/assets/images/Logo.svg' alt='Пора в поход' />
         </Link>
         <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
-          <Link to="#" onClick={() => setIsMenuOpen(false)}>Туры</Link>
-          <Link to="#" onClick={() => setIsMenuOpen(false)}>О нас</Link>
-          <Link to="#" onClick={() => setIsMenuOpen(false)}>Отзывы</Link>
-          <Link to="#" onClick={() => setIsMenuOpen(false)}>Контакты</Link>
+          <Link to='#' onClick={() => setIsMenuOpen(false)}>
+            Туры
+          </Link>
+          <Link to='#' onClick={() => setIsMenuOpen(false)}>
+            О нас
+          </Link>
+          <Link to='#' onClick={() => setIsMenuOpen(false)}>
+            Отзывы
+          </Link>
+          <Link to='#' onClick={() => setIsMenuOpen(false)}>
+            Контакты
+          </Link>
         </nav>
-        <button className="burger" onClick={toggleMenu}>
-          <span className="burger-line">☰</span>
+        <button className='burger' onClick={toggleMenu}>
+          <span className='burger-line'>☰</span>
         </button>
       </header>
     </div>

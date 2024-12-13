@@ -1,169 +1,169 @@
 .reviewsBG {
-    background-image: url('/src//assets/images/ProgrammVector.svg');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    margin: 20px auto;
-    gap: 50px;
+  background-image: url('/src//assets/images/ProgrammVector.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  gap: 50px;
 }
 
 .reviewCards {
-    display: flex;
-    justify-content: space-between;
-    gap: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
 }
 
 .reviewCard {
-    max-width: 500px;
-    height: 550px;
-    border: 1px solid #023E73;
-    border-radius: 8px;
+  max-width: 500px;
+  height: 550px;
+  border: 1px solid #023e73;
+  border-radius: 8px;
 }
 
 .reviewCard1 {
-    background-image: url('/src/assets/images/MariyaBG.jpeg');
-    background-size: cover;
-    background-position: center center;
+  background-image: url('/src/assets/images/MariyaBG.jpeg');
+  background-size: cover;
+  background-position: center center;
 }
 
 .reviewCard2 {
-    background-image: url('/src/assets/images/EvgeniyBG.jpeg');
-    background-size: cover;
-    background-position: center center;
+  background-image: url('/src/assets/images/EvgeniyBG.jpeg');
+  background-size: cover;
+  background-position: center center;
 }
 
 .reviewCardHead {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    color: #fff;
-    font-size: 30px;
-    font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .mariya {
-    background-image: url('/src/assets/images/Mariya.jpeg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 180px;
+  background-image: url('/src/assets/images/Mariya.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 180px;
 }
 
 .evgeniy {
-    background-image: url('/src/assets/images/Evgeniy.jpeg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 300px;
+  background-image: url('/src/assets/images/Evgeniy.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 300px;
 }
 
 .avatar {
-    margin: 5%;
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
+  margin: 5%;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
 }
 
 .reviewText {
-    color: #fff;
-    font-weight: 400;
-    padding: 5%;
+  color: #fff;
+  font-weight: 400;
+  padding: 5%;
 }
 
 @media (max-width: 1230px) {
-    .reviewCards {
-        margin-top: 20px;
-        gap: 50px;
-    }
+  .reviewCards {
+    margin-top: 20px;
+    gap: 50px;
+  }
 
-    .reviewCard {
-        max-width: 400px;
-        height: 550px;
-        border: 1px solid #023E73;
-        border-radius: 8px;
-    }
+  .reviewCard {
+    max-width: 400px;
+    height: 550px;
+    border: 1px solid #023e73;
+    border-radius: 8px;
+  }
 
-    .reviewCardHead {
-        font-size: 24px;
-        font-weight: 600;
-    }
+  .reviewCardHead {
+    font-size: 24px;
+    font-weight: 600;
+  }
 
-    .avatar {
-        margin: 10px 10px 10px 20px;
-        width: 120px;
-        height: 120px;
-    }
+  .avatar {
+    margin: 10px 10px 10px 20px;
+    width: 120px;
+    height: 120px;
+  }
 
-    .mariya {
-        background-size: 120px;
-    }
+  .mariya {
+    background-size: 120px;
+  }
 
-    .reviewText {
-        color: #fff;
-        font-size: 18px;
-        font-weight: 400;
-        padding: 0 30px;
-    }
+  .reviewText {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 30px;
+  }
 }
 
 @media (max-width: 990px) {
-    .reviewCards {
-        margin-top: 20px;
-        gap: 30px;
-    }
+  .reviewCards {
+    margin-top: 20px;
+    gap: 30px;
+  }
 
-    .reviewsBG {
-        gap: 15px;
-    }
+  .reviewsBG {
+    gap: 15px;
+  }
 
-    .reviewCard {
-        height: 500px;
-    }
+  .reviewCard {
+    height: 500px;
+  }
 
-    .reviewText {
-        margin: 0;
-    }
+  .reviewText {
+    margin: 0;
+  }
 }
 
 @media (max-width: 990px) {
-    .reviewsBG {
-        max-width: 95%;
-    }
+  .reviewsBG {
+    max-width: 95%;
+  }
 
-    .reviewCard2 {
-        display: none;
-    }
+  .reviewCard2 {
+    display: none;
+  }
 
-    .reviewCards {
-        margin: 0 10px;
-    }
+  .reviewCards {
+    margin: 0 10px;
+  }
 }
 
 @media (max-width: 576px) {
-    .avatar {
-        margin: 10px 10px 10px 10px;
-        width: 100px;
-        height: 100px;
-    }
+  .avatar {
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    height: 100px;
+  }
 
-    .mariya {
-        background-size: 100px;
-    }
+  .mariya {
+    background-size: 100px;
+  }
 
-    .reviewText {
-        font-size: 16px;
-        padding: 10px 10px;
-    }
+  .reviewText {
+    font-size: 16px;
+    padding: 10px 10px;
+  }
 
-    .reviewCard {
-        height: auto;
-    }
+  .reviewCard {
+    height: auto;
+  }
 
-    .reviewsBG {
-        gap: 5px;
-    }
+  .reviewsBG {
+    gap: 5px;
+  }
 
-    .arrow {
-        margin: 0;
-    }
+  .arrow {
+    margin: 0;
+  }
 }

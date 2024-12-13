@@ -1,46 +1,46 @@
 .travelTimeBG {
-    background-image: url('/src/assets/images/MainBG.jpeg');
-    height: 100vh;
-    margin-top: -164px;
-    background-size: cover;
-    background-position: top;
+  background-image: url('/src/assets/images/MainBG.jpeg');
+  height: 100vh;
+  margin-top: -164px;
+  background-size: cover;
+  background-position: top;
 }
 
 .travelTimeHeader {
-    color: #F15C05;
-    margin: 20px 0;
-    font-size: 64px;
-    font-weight: 900;
-    padding-top: 272px;
+  color: #f15c05;
+  margin: 20px 0;
+  font-size: 64px;
+  font-weight: 900;
+  padding-top: 272px;
 }
 
 .travelTimeText {
-    color: #fff;
-    font-size: 36px;
-    font-weight: 500;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
-    .travelTimeHeader {
-        font-size: 48px;
-    }
+  .travelTimeHeader {
+    font-size: 48px;
+  }
 
-    .travelTimeText {
-        font-size: 24px;
-    }
+  .travelTimeText {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 480px) {
-    .travelTimeHeader {
-        font-size: 36px;
-        padding-top: 240px;
-    }
+  .travelTimeHeader {
+    font-size: 36px;
+    padding-top: 240px;
+  }
 
-    .travelTimeText {
-        font-size: 20px;
-    }
+  .travelTimeText {
+    font-size: 20px;
+  }
 
-    .travelTimeBG {
-        padding-top: -164px;
-    }
+  .travelTimeBG {
+    padding-top: -164px;
+  }
 }
